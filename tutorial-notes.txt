@@ -1,1 +1,10 @@
 ./gradlew tasks - too see all the tasks that can be run
+chmod +x gradlew
+./gradlew assembleDebug
+abd shell am start -n com.example.android.sunshine.app/com.example.sunshine.app.MainActivity
+
+FrameLayout, LinerLayout, RelativeLayout : all descend from the view group class
+
+FrameLayout:- Useful for simple layouts with a single view or stack of views. Views are all aligned against the frame boundaries only
+LinearLayout:- Perfect for stacking view vertically or horizontally one after another
+RelativeLayout: Sophisticated layout that allows the positioning of views relative to other views or the boundaries of the view
