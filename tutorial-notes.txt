@@ -1,0 +1,1 @@
+./gradlew tasks - too see all the tasks that can be run
